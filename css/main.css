@@ -1,0 +1,368 @@
+p, h1, h2, h3 {
+    font-family: DroidSerif;
+    font-style: italic;
+}
+
+a, h1, h2, h3 {
+    font-family: Montserrat;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-family: RobotoSlab;
+}
+
+.scroll {
+    background-color: aqua;
+    opacity: 0.7;
+}
+
+.img-responsive {
+    height: 1000px;
+    width: 100%;
+}
+
+
+.header {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navbar-toggler {
+    margin-right: 0;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.pudelko {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.napis,
+.napis1 {
+    color: white;
+    text-align: center;
+}
+
+.guzik {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.serwis {
+    text-align: center;
+}
+
+.ikony {
+    text-align: center;
+}
+
+.kolko {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.margin {
+    margin-bottom: 50px;
+}
+
+.ikony-services {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    transition: all 0.70s;
+}
+
+.kolko:hover {
+    background-color: white;
+     transition: all 0.70s;
+    transform: rotate(720deg);
+}
+
+.kolko:hover > i {
+    color: aqua;    
+}
+
+.drugi {
+    margin-top: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+/*portfolio*/
+
+.h-portfolio {
+    margin-top: 10px;
+}
+
+.portfolio {
+    background-color: gainsboro;
+    padding: 20px;
+    
+}
+
+.dolny {
+    margin-bottom: 100px;
+}
+
+#portfolio {
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.portfolio-box {
+    height: 320px;
+    
+}
+
+.tlo {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.pictures {
+    height: 200px;
+    background-position: center;
+     position: relative;
+    transition-duration: 1s;
+}
+
+.border {
+    overflow: hidden;
+    
+}
+
+.picture1 {
+    background-image: url(portfolio/box_of_cookies.jpg);
+    
+}
+
+.picture2 {
+    background-image: url(portfolio/chaotic_paint.jpg);
+}
+
+.picture3 {
+    background-image: url(portfolio/chestnut_on_bracket.jpg);
+}
+
+.picture4 {
+    background-image: url(portfolio/child_with_blue_paint.jpg);
+}
+
+.picture5 {
+    background-image: url(portfolio/house_with_blue_doors.jpg);
+}
+
+.picture6 {
+    background-image: url(portfolio/typing_on_laptop.jpg);
+}
+
+.mask {
+    height: 200px;
+    opacity: 0;
+    background-color: aqua;
+    transition: all 1s;
+   
+    
+}
+
+.plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    transition: all 1s;
+    
+}
+
+.pictures:hover > .mask {
+    opacity: 0.7;
+
+}
+
+.pictures:hover > .plus {
+    opacity: 1;
+}
+
+.pictures:hover {
+    transform: scale(2);
+}
+
+
+/* twarze w kółkach */
+
+#about {
+    margin-top: 100px;
+}
+
+.face-box {
+   margin-top: 100px;
+}
+
+.face-circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.icon-circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: black;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+
+.ikona {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.face-circle1 {
+    background-image: url(team/man-1.jpg);
+}
+
+.face-circle2 {
+    background-image: url(team/man-2.jpg);
+}
+
+.face-circle3 {
+    background-image: url(team/woman-1.jpg);
+}
+
+.icon-circle:hover {
+    background-color: aqua;
+}
+
+#team-text {
+    margin: 100px;
+}
+
+
+/* formularz */
+.form-box {
+    height: 90vh;
+    background-image: url(footer/world-map.jpg);
+    background-position: center;
+    position: relative;
+}
+
+.form-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+input, textarea {
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    margin-top: 22px;
+    resize: none;
+}
+
+.h-form, .p-form {
+    color: white;
+}
+
+button {
+    margin: 0 auto;
+}
+
+.button-box {
+    margin-top: 20px;
+}
+
+
+
+
+/*footer*/
+.footer-house {
+   
+    height: 10vh;
+    padding: 20px;
+}
+
+
+
+.icon {
+    margin-top: 15px;
+}
+
+.footer-icons {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+     
+}
+
+
+.footer-ikona {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer1, .footer2, .footer3 {
+    text-align: center;
+    
+}
+
+
+.footer-icons:hover {
+    background-color: aqua;
+}
